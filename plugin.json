@@ -1,0 +1,11 @@
+{
+  "id": "note_it",
+  "weight": 956,
+  "minversion": 202300451120,
+  "info": {
+    "name": "NoteIt",
+    "version": "1.0",
+    "description": "A plugin for users of MCreator",
+    "author": "Infoy or PSGitHubUser1"
+  }
+}

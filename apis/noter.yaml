@@ -1,0 +1,49 @@
+---
+fabric-1.20.1:
+  gradle: |
+    repositories {
+        maven { url = "https://api.modrinth.com/maven" }
+      }
+    
+    dependencies {  
+        modImplementation "maven.modrinth:ko8Qabo1:W9lwYk5g"  // 2.1.0
+    }
+  update_files:
+    - ~
+
+forge-1.20.1:
+  gradle: |
+    repositories {
+        maven { url = "https://api.modrinth.com/maven" }
+      }
+    
+    dependencies {   
+        modImplementation "maven.modrinth:ko8Qabo1:IsK6Fio9"  // 1.3.0
+    }
+  update_files:
+    - ~
+
+forge-1.19.4:
+  gradle: |
+    repositories {
+        maven { url = "https://api.modrinth.com/maven" }
+      }
+    
+    dependencies {   
+        modImplementation "maven.modrinth:ko8Qabo1:qu4IxSdt"  // 1.3.0
+    }
+  update_files:
+    - ~
+    
+forge-1.19.2:
+  gradle: |
+    repositories {
+        maven { url = "https://api.modrinth.com/maven" }
+      }
+    
+    dependencies {   
+        modImplementation "maven.modrinth:ko8Qabo1:MV7SQc07"  // 1.2.5
+    }
+  update_files:
+    - ~
+name: "NoteIt"
